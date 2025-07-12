@@ -1,0 +1,77 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#container {
+  text-align: center;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.05); /* Slight transparency */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+#container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#container ul li {
+  margin: 0;
+}
+
+#container ul li button {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.red {
+  background-color: #ff4d4d;
+}
+
+.blue {
+  background-color: #4d79ff;
+}
+
+.green {
+  background-color: #47d147;
+}
+
+.yellow {
+  background-color: #ffcc00;
+  color: black;
+}
+
+.orange {
+  background-color: #ff944d;
+}
+
+#container ul li button:hover {
+  opacity: 0.8;
+}
