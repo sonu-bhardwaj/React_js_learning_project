@@ -1,0 +1,71 @@
+/* Ensure full screen layout without browser spacing */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.app-container {
+  width: 100%;
+  height: 100vh;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Container fixed to bottom */
+.button-container {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+/* Button group */
+.buttons {
+  display: flex;
+  gap: 15px;
+  background-color: white;
+  padding: 15px 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual button style */
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+/* Specific colors */
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+  color: black; /* better contrast on yellow */
+}

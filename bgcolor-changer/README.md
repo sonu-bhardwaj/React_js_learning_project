@@ -9,7 +9,7 @@ This is a simple React application that allows users to change the **background 
 - 🎯 Clean and responsive UI
 - 🎨 Real-time background color change
 - ⚛️ Built using React functional components
-- 🧠 Demonstrates use of `useState` hook
+- 🧠 Demonstrates use of `useState` hook (including handler function)
 - 🧼 Clean code with comments and structure
 
 ---
