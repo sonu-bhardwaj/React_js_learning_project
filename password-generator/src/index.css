@@ -1,0 +1,16 @@
+@import "tailwindcss";
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+/* src/style.css */
+/* :root {
+   background-color: rgb(54, 50, 50);
+ } */
+
+
+body {
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+ background-color: rgb(54, 50, 50);
+}
