@@ -1,7 +1,6 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import "./App.css";
 
-
 function App() {
   const [length, setLength] = useState(8);
   const [numberAllowed, setNumberALlowed] = useState(false);
@@ -53,14 +52,19 @@ function App() {
             className="outline-none flex-grow py-3 px-4 text-black placeholder-gray-500 text-sm sm:text-base"
           />
           <button
-            className="bg-blue-700 text-white px-5 py-3 text-sm sm:text-base hover:bg-blue-600 transition-all"
+            className="bg-blue-700 text-white px-5 py-3 text-sm sm:text-base hover:bg-blue-600 transition-all rounded-r-md"
             onClick={copyPasswordToClipBoard}
           >
             Copy
           </button>
+          <button
+            onClick={passwordGenerator}
+            className="bg-blue-700 text-white px-5 py-3 text-sm sm:text-base hover:bg-blue-600 transition-all sm:mt-0 sm:ml-2 rounded-l-md"
+          >
+            Generate
+          </button>
         </div>
 
-        {/* Controls */}
         <div className="flex flex-col gap-6 text-sm sm:text-base">
           {/* Length Slider */}
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
