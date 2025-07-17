@@ -32,7 +32,7 @@ function App() {
   const copyPasswordToClipBoard = useCallback(() => {
     passwordRef.current?.select();
     window.navigator.clipboard.writeText(password);
-    alert("Password copied!");
+    // alert("Password copied!");
   }, [password]);
 
   return (
